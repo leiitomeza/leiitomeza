@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu{
+	height: 36px;
+background: linear-gradient(to right, rgba(218,207,235,1) 0%, rgba(255,255,255,1) 58%, rgba(254,254,254,1) 100%);
+}
+
+#menu ul{
+	padding:0;
+	margin-left:1px;
+	}
+
+#menu li{
+	list-style:none;
+	float:left;
+	padding: 0px;
+	border-left: 1px solid #fff;
+}
+
+#menu a{
+	text-decoration:none;
+	font-family: "Playfair Display", serif;
+	font-size:16px;
+	color:#000;
+	font-weight: bold;
+	margin: 0px 15px 0px 0px;
+	padding:0px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items:center;
+}
+
+#menu a:hover{
+	color:#C0C;	
+}
+
+#menu img{
+	width:35px;
+	height:35px;
+	padding:3px 0px 0px 0px;
+	margin: 0px 3px 0px 15px;
+}
+
+#menu img:hover{
+	width:50px;
+	height:50px;
+}
+
+#banner{
+	height: 150px;
+	text-align:center;
+	background-image: url(imagenes/Sin%20t%C3%ADtulo-1.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	margin: 30px 0px 30px 0px;
+}
+
+#fondobanner{
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.96) 19%, rgba(237,194,223,0.9) 50%, rgba(255,255,255,0.83) 81%, rgba(255,255,255,0.79) 100%);
+}
+
+#banner h1{
+	font-family:"Playfair Display", serif;
+	font-size: 80px;
+	text-shadow: 1px 1px 2px grey; 
+	margin:15px 0px 0px 0px;
+	padding: 17px 0px 5px 0px; 
+	color: black;
+	line-height:1;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items:center;
+}
+
+#banner h1:hover{
+	color: black;
+		font-size: 85px;
+}
+
+#banner h4{
+	font-family:"Playfair Display", serif;
+	font-size:24px;
+	color: black;
+	text-shadow: 1px 1px 2px grey;
+	margin:0px;
+	line-he
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items:center; 
+	}
+	
+#banner h4:hover{
+	color: black;
+	font-size: 26px;
+	opacity::0.2;
+}
+	
+
+#slide1{
+width:50%;
+}
+
+
+#barra{
+	margin-left: 500px;
+}
+
+
+#home{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items:center;
+}
+
+.tab-content{
+		display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items:center;
+}
+
+#slide1 h5{
+margin-top: 30px;
+text-align:center;
+font-weight:5;
+font-family:"Times New Roman", Times, serif;
+font-style: italic;	
+}
+
+#pills-tab{
+	margin-left: 90px;
+}
+
+#todo{
+		padding-bottom:30px;
+		background-color: #f2eff4;
+		
+}
+
+#todo h3{
+	font-family:"Playfair Display", serif;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px grey; 
+	color: rgb(102,0,102);	
+	text-align:center;
+	margin:20px 0px 5px 0px;
+	padding-top:15px;
+}
+
+#todo h6{
+font-family:"Playfair Display", serif;
+	font-size: 12px; 
+	color: black);	
+	text-align:center;
+	margin:5px 0px 30px 0px;
+	font-style:italic
+}
+
+.card{
+width:30%;
+
+}
+
+.card-group h5{
+	font-family:"Playfair Display", serif;
+	font-size: 12px;
+	text-shadow: 1px 1px 2px grey; 
+	
+}
+
+
+.col-xs-12 col-md-6 col-sm-6{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items:center;
+}
